@@ -4,7 +4,7 @@ local plateLetters = {"A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L", "M"
 
 Citizen.CreateThread(function()
     while true do
-        for vehicle in GetGamePool('CVehicle') do
+        for _, vehicle in pairs(GetGamePool('CVehicle')) do
             local currentPlate = GetVehicleNumberPlateText(vehicle)
 			
             if currentPlate ~= nil then
