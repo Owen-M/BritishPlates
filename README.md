@@ -1,5 +1,3 @@
-![enter image description here](https://i.imgur.com/2aH2nNa.png)
-
 # What is this?
 
 The British Plate script is a free release provided by Hybrid Studios that will convert all AI vehicle plates from an American format to a British one. The resource is easily customisable to modify the letters, numbers and area codes available to AI.
